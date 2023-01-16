@@ -14,7 +14,7 @@ resource "github_branch" "development" {
 resource "github_branch_default" "default" {
   count      = length(var.github_repos)
   repository = github_repository.github_repos[count.index].name
-  branch     = github_branch.development[count.index].branch
+  branch     = "main"
 }
 
 resource "github_branch_protection_v3" "branch_protection" {
