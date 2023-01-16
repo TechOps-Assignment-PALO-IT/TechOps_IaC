@@ -4,13 +4,13 @@ Infrastructure code for our TechOps project written in terraform
 
 &nbsp;
 
-### Prerequisuites
+## Prerequisuites
+
 - Terraform CLI
 
 &nbsp;
 
 ## Getting Started
------------------------------------------------------------
 
 1. Copy the example tfvars file to a new file named `local.tfvars`.
 
