@@ -10,5 +10,4 @@ variable "github_owner" {
 variable "github_repos" {
   description = "A list of Github repository names"
   type        = list(string)
-  default     = ["TechOps_Frontend_Test", "TechOps_Backend_Test"]
 }
