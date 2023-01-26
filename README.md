@@ -6,7 +6,7 @@ Infrastructure code for our TechOps project written in terraform
 
 ## Prerequisuites
 
-- Terraform CLI
+- Terraform CLI v1.3.7+
 
 &nbsp;
 
