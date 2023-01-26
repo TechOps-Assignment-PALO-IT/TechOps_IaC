@@ -6,6 +6,11 @@ terraform {
       source  = "integrations/github"
       version = "~> 5.0"
     }
+
+  backend "s3" {
+    bucket = "tech-tops-project-tfstate"
+    key    = "tech-tops-project-tfstate/terraform.tfstate"
+    region = "ap-southeast-1"
   }
 }
 
