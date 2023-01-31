@@ -4,9 +4,11 @@ Infrastructure code for our TechOps project written in terraform
 
 &nbsp;
 
-## Prerequisuites
+## Prerequisites
 
 - Terraform CLI v1.3.7+
+- AWS
+- Github Account
 
 &nbsp;
 
