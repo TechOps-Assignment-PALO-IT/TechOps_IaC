@@ -23,7 +23,7 @@ resource "github_branch_protection_v3" "branch_protection" {
   branch     = "main"
 
   required_pull_request_reviews {
-    dismiss_stale_reviews = true
-    
+    dismiss_stale_reviews           = true
+    required_approving_review_count = 1
   }
 }
